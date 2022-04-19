@@ -23,3 +23,34 @@ Comando | Descripción | Ejemplo de uso |
 | ps -aux | Muestra todos los procesos pertenecientes al usuario | Mediante el comando "ps -aux u", se utiliza el formato orientado al usuario|
 | ip addr | Muestra el ip del internet que está usando el usuario | Mediante el comando "ip addr" se nos da a conocer información sobre el host y la ip del internet que se utiliza |
 | openssh | Conecta la máquina virtual a un servidor | Para cambiar el puerto que se utiliza para estar conectado al servidor, usamos el comando "openssh port (número de puerto que desea usar)" |
+
+
+Laboratorio #4
+
+Comando | Descripción | Ejemplo de uso |
+|`clear`|Limpia el estado actual de la terminal|`clear`|
+|`cd`|Cambia el directorio actual|`cd` home/user/Desktop|
+|`man`|Muestra el manual para el comando especificado|`man` mkdir|
+|`whoami`|Imprime el usuario actual| `whoami`|
+|`sudo`|Permite ejecutar un comando como root|`sudo` apt install cmatrix|
+|`cp`| Copia el archivo especificado a uno nuevo| `cp` archivo.txt archivo_copia.txt|
+|`wget`|Utilidad para descargar archivos de la web|`wget` -q https://packages.microsoft.com/keys/microsoft.asc|
+|`pacman`|Administrador de paquetes para distribuciones basadas en Arch| `sudo pacman -Syuu`|
+|`useradd`|Crea un nuevo usuario que incluye un directorio de inicio personal| `sudo useradd -m newUser -G rueda -p 123456`|
+|`touch`|Crea un nuevo archivo| `toca archivo.txt`|
+|`mkdir`|Crea un nuevo directorio| `mkdir nuevoDir`|
+|`rmdir`|Elimina el directorio especificado| `rmdir -rf nuevoDir`|
+|`tree`|muestra una lista en forma de árbol del directorio y subdirectorios actuales| `árbol`|
+|`ls`|Enumera el archivo en la ruta especificada| `ls -l /bin/`|
+|`cat`|Imprime el contenido de un archivo dado| `archivo gato.txt`|
+|`mv`|Mueve un archivo dado a la ruta especificada, también se puede usar para renombrar| `archivo mv.txt /bin/`|
+|`grep`|Útil para buscar dentro de archivos| `grep -rin "registro" /inicio/*`|
+|`ps`|Imprime los procesos actuales| `ps -A`|
+|`chmod`|Cambia los permisos para el archivo o directorio dado| `chmod 777 archivo.txt`|
+|`su`|Si se da un usuario, cambia a él, si no, cambia al usuario root| `su - nuevoUsuario`|
+|`pkill`|Mata el proceso dado| `sudo pkill colord`|
+|`history`|Imprime todos los comandos usados hasta ahora en la terminal| `historia`|
+|`ln`|Crea un enlace duro con el nombre dado al archivo dado. (si se usa -s, crea un enlace suave) | `ln -s /var/log/pacman.log ~/pacman.log`|
+|`crontab`|Permite configurar el Daemon crontab| `crontab -e`|
+|`nano`|Editor de texto en la terminal| `archivo nano.txt`|
+|`vim`|Editor de texto en la terminal| `archivo vim.txt`|
