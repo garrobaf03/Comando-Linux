@@ -2,6 +2,8 @@
 Este repositorio es sobre los comandos aprendidos en Sistemas Operativos
 Comando | Descripción | Ejemplo de uso |
 | ------------- | ------------- | ------------- |
+|`touch`|Crear un nuevo archivo| `touch file.txt`|
+|`mkdir`|Crear nuevos directorios| `mkdir newDir`|
 | man  | Despliega un manual  | Al utilizar el comando "man ls" se despliega la página manual para el item ls |
 | sudo su  | Ejecuta programas con privilegios de seguridad  | Se usa cuando se necesita tener los privilegios de un usuario (normalmente) "root"  |
 | whoami  | Imprime el nombre de usuario  | Este comando tiene como función imprimir el nombre de usuario dado |
@@ -32,7 +34,6 @@ Comando | Descripción | Ejemplo de uso |
 | ip addr | Ver datos de red | ------------- |
 | nmap [IP] | Ver IP de maquina | ------------- |
 | ping [IP] | Hacer ping de alguna maquina | ------------- |
-| mkdir |  Crear directorios | ------------- |
 | ps -aux / top / pstree | Ver procesos, con parametro -aux se ven procesos activos.  | ------------- |
 | | | Concatenar comandos | ------------- |
 | grep [nombre] | Buscar  | ------------- |
